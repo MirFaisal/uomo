@@ -10,6 +10,7 @@
 #navbar {
   background: #000;
   color: #fff;
+  padding-inline: 60px;
 }
 #navbar .nav-wrapper {
   display: flex;
@@ -32,6 +33,7 @@
 #navbar .nav-wrapper .action {
   width: 20%;
   display: flex;
+  justify-content: end;
   align-items: center;
   gap: 25px;
 }
