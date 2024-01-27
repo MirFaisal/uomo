@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* 
+ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+#navbar {
+  background: #000;
+  color: #fff;
+}
+#navbar .nav-wrapper {
+  display: flex;
+}
+#navbar .nav-wrapper .brand {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+#navbar .nav-wrapper .menu {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+#navbar .nav-wrapper .menu .menu-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+#navbar .nav-wrapper .action {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
